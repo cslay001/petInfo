@@ -2,8 +2,8 @@ package org.coco.petinfo;
 
 public class Bunny extends Pet {
 
-	public Bunny(String name, String gender, String size, String breed) {
-		super(name, gender, size, breed);
+	public Bunny(String name, int typeInt, String gender, String size, String breed) {
+		super(name, typeInt, gender, size, breed);
 	}
 
 	public void hop() {

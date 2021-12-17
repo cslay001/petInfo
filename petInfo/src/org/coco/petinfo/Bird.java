@@ -2,8 +2,8 @@ package org.coco.petinfo;
 
 public class Bird extends Pet {
 
-	public Bird(String name, String gender, String size, String breed) {
-		super(name, gender, size, breed);
+	public Bird(String name, int typeInt, String gender, String size, String breed) {
+		super(name, typeInt, gender, size, breed);
 	}
 
 	public void chirp() {
