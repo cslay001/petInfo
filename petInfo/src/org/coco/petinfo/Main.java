@@ -27,10 +27,12 @@ public class Main {
 		
 		System.out.println("");
 		System.out.println("please input " + petName + "'s gender: ");
+		System.out.println("{F. female, M. male, P. prefer not to say");
 		String petGender = scanner.next();
 		
 		System.out.println("");
 		System.out.println("please input " + petName+ "'s size: ");
+		System.out.println("{S. small, M. medium, L. large");
 		String petSize = scanner.next();
 		System.out.println("");
 		
